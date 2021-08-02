@@ -13,7 +13,7 @@ function x(y, n) {
   let x2 = 0;
 
   for (let mars of y) {
-    if ((n = mars)) {
+    if (n === mars) {
       x2++;
       return x2;
     }
